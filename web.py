@@ -10,7 +10,6 @@ def add_todo():
     Functions.write_todos(todos)
 
 
-
 st.title("My To Do App")
 st.subheader("This is my To-Do App")
 st.write("This app can help improve your productivity")
@@ -27,7 +26,7 @@ for index, todo in enumerate(todos):
 st.text_input(label="Enter a To-Do", placeholder="Add New To-Do",
               on_change=add_todo, key="New_Todo")
 
-st.session_state
+
 
 
 
